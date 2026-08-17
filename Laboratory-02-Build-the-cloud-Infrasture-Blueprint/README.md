@@ -1,7 +1,7 @@
-# Laboratory Activity 2: Build the Cloud Infrastructure Blueprint
+# Laboratory 02 – Build the Cloud Infrastructure Blueprint
 
 ## Mission Overview
-As a newly onboarded cloud engineer at CloudNova Technologies, this mission involved investigating the infrastructure components of a Linux server running on the KillerCoda Playground before any cloud services are deployed. The goal was to identify how compute, storage, networking, and identity services work together, and to document these findings as if preparing technical documentation for a client.
+CloudNova Technologies has onboarded me for my first official project. Before any servers are deployed, I was tasked with investigating a Linux cloud server (via KillerCoda) to identify its infrastructure components — compute, storage, networking, and identity — and to prepare a Cloud Infrastructure Assessment Report for senior engineers to reference when designing the final cloud architecture.
 
 ## Objectives
 - Explain the major components of cloud infrastructure.
@@ -12,37 +12,39 @@ As a newly onboarded cloud engineer at CloudNova Technologies, this mission invo
 - Continue building a structured GitHub Cloud Computing Portfolio.
 
 ## Cloud Infrastructure Components
-- **Compute:** Provides the processing power to run workloads (see cloud-components.md).
-- **Storage:** Persistently stores data and files, decoupled from compute.
-- **Networking:** Connects compute and storage to users and the internet.
-- **Operating System:** Manages hardware and provides the platform for all software.
+- **Compute** – the CPU and processing power that runs applications (see `cloud-components.md`).
+- **Storage** – the disk capacity and file systems that persist data.
+- **Networking** – the hostname/IP that connects the server to users and other services.
+- **Operating System** – the Linux OS that manages hardware and runs software.
+
+Full details and analysis are documented in `cloud-components.md`.
 
 ## Tools Used
-- KillerCoda Playground (Linux terminal environment)
-- GitHub (version control and documentation hosting)
-- Markdown (technical documentation)
+- KillerCoda Playground (Linux environment)
 - Draw.io (cloud architecture diagram)
+- GitHub (version control and documentation)
+- Markdown
 
 ## Linux Commands Executed
-
 | Command | Purpose |
 |---|---|
-| `cat /etc/os-release` | Identify the operating system |
-| `uname -r` | Check kernel version |
-| `lscpu \| grep "Model name"` | Get CPU model |
+| `cat /etc/os-release` | Identify OS |
+| `uname -r` | Identify kernel version |
+| `cat /proc/cpuinfo` | View CPU model |
 | `nproc` | Count CPU cores |
-| `free -h` | Check total RAM |
+| `free -h` | Check RAM |
 | `df -h` | Check disk capacity |
-| `mount \| grep "^/dev"` | List mounted filesystems |
-| `hostname` | Get server hostname |
-| `hostname -I` | Get IP address |
+| `findmnt` | List mounted file systems |
+| `hostname` | Get hostname |
+| `ip a` | Get IP address |
 
 ## Skills Learned
-- Using core Linux commands to inspect system, storage, and network information
-- Structuring and formatting technical documentation in Markdown
-- Comparing equivalent infrastructure services across AWS, Azure, and GCP
-- Designing a basic cloud architecture diagram
-- Maintaining an organized, professional GitHub repository through structured commits
+- Investigating a Linux server's hardware and software specs from the command line.
+- Mapping cloud infrastructure concepts (compute, storage, networking, IAM) to real observed resources.
+- Comparing equivalent services across AWS, Azure, and GCP.
+- Creating a cloud architecture diagram in Draw.io.
+- Structuring and maintaining a GitHub documentation portfolio.
 
 ## Challenges Encountered
-[Fill in anything that actually gave you trouble — e.g., interpreting certain command outputs, formatting Markdown tables correctly, or KillerCoda session timeouts requiring a restart.]
+- KillerCoda sessions are temporary, so all documentation had to be captured and saved outside the environment before it expired.
+- Understanding the naming differences for equivalent services across the three major cloud providers.
