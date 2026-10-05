@@ -4,7 +4,7 @@
 | Metric | Value |
 |--------|-------|
 | Total RAM | 1.9 GiB (1903.2 MiB) |
-| Total Root (/) Storage | <908Mi |
+| Total Root (/) Storage | 908Mi |
 | CPU Idle | 97.7% |
 | Load Average | 0.00, 0.03, 0.04 |
 
