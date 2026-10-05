@@ -11,7 +11,7 @@ Application logs record every request and error with a timestamp, status code, a
 | Metric | Value |
 |--------|-------|
 | Container | client-website |
-| CPU % | <your value> |
-| Memory Usage | <your value> |
+| CPU % | 0.00% |
+| Memory Usage | 2.754MiB |
 
 ![Container Metrics](screenshots/container-metrics.png)
