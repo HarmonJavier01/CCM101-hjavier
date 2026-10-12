@@ -1,4 +1,4 @@
-cat > security-audit-report.md <<'EOF'
+
 # Security Audit Report
 
 ## Principle of Least Privilege (PoLP)
@@ -9,4 +9,3 @@ The attack surface of a VM is everything an attacker could try to get into, like
 
 ## Default Deny Policy
 Default deny blocks all traffic unless I specifically allow it. It is safer than blocking hackers one by one because attackers can change IP addresses easily and I would never finish the block list. With default deny, anything I did not approve is rejected automatically.
-EOF

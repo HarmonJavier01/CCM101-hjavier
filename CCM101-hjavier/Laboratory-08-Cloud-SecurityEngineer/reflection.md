@@ -1,4 +1,4 @@
-cat > reflection.md <<'EOF'
+
 # Mission Reflection
 
 **1. Host-based firewall.** A host firewall runs on the server itself, so it still works even if someone gets past the network firewall or is already inside the network. The server checks every connection against its own rules and drops what is not allowed. No single layer has to stop everything.
@@ -9,7 +9,7 @@ cat > reflection.md <<'EOF'
 
 **4. Change in perspective.** [Write 2 or 3 sentences about what surprised you. For example: the server accepted connections on everything until the firewall was on, or the curl failing at first, or the warning about being locked out. Say what you saw on your screen.]
 
-**5. My GitHub portfolio.** My repo now has eight lab folders, each with a README, notes in Markdown, and screenshots. [Add one sentence about how it looks to you, like which lab you are happiest with or what you would improve.]
-EOF
+**5. My GitHub portfolio.** My repo now has eight lab folders, each with a README, notes in Markdown, and screenshots. Looking back, the early labs look simpler than the later ones, and I can see my documentation getting more organized as I went. I am happiest with this lab and the earlier Docker labs because I could show my work with real terminal screenshots.
+
 
 wc -w reflection.md

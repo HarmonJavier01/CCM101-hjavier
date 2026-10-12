@@ -1,4 +1,4 @@
-cat > README.md <<'EOF'
+
 # Laboratory 08 - Cloud Security Engineer
 
 ## Mission Overview
@@ -41,4 +41,3 @@ curl http://localhost:8080
 
 ## AI Disclosure
 I used Claude to help draft the documentation structure. I ran all commands myself in KillerCoda and edited the text.
-EOF

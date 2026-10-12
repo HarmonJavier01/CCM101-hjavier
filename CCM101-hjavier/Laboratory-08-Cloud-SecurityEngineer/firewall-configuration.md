@@ -1,4 +1,4 @@
-cat > firewall-configuration.md <<'EOF'
+
 # Firewall Configuration
 
 These are the commands I used to secure the server with UFW.
@@ -33,4 +33,3 @@ The firewall would block port 22 right away, so I would be locked out of my own 
 ![Firewall activated](screenshots/firewall-activated.png)
 
 ![Port 8080 allowed](screenshots/firewall-port-allowed.png)
-EOF
