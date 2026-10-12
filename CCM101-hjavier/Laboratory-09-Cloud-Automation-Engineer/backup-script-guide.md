@@ -1,4 +1,4 @@
-cat > backup-script-guide.md <<'EOF'
+
 # Backup Script Guide
 
 This is how the backup for the client's `app-data` folder was set up.
@@ -47,4 +47,3 @@ So the script runs every night at 2:00 AM.
 ![Script execution](screenshots/script-execution.png)
 
 ![Cron schedule](screenshots/cron-schedule.png)
-EOF

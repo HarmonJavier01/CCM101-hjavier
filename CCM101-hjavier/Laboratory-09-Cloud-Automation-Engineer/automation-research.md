@@ -1,4 +1,4 @@
-cat > automation-research.md <<'EOF'
+
 # Automation Research
 
 ## Bash Script
@@ -9,4 +9,3 @@ A variable holds a value under a name, like `BACKUP_DIR="backups"`. If the folde
 
 ## Cron Job
 Cron is the Linux scheduler. A cron job is a command that cron runs by itself at a time I set, for example every night at 2 AM. In cloud work this matters because things like backups keep happening even when nobody is around to do them.
-EOF
