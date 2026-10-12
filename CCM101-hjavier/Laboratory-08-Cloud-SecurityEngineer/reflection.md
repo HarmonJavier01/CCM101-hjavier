@@ -12,4 +12,3 @@
 **5. My GitHub portfolio.** My repo now has eight lab folders, each with a README, notes in Markdown, and screenshots. Looking back, the early labs look simpler than the later ones, and I can see my documentation getting more organized as I went. I am happiest with this lab and the earlier Docker labs because I could show my work with real terminal screenshots.
 
 
-wc -w reflection.md
